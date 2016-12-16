@@ -1,6 +1,10 @@
 #ValeroApp
 Basic application demonstrating MEAN (Mongo, Express, Angular, and Node) Integration with Google Maps. App allows the user to view Valero Locations. Also allows the user to select a radius of stores. 
 
+#Struggles I had
+
+I wanted to create a login area and a sidebar for the user to allow them to login and to allow them store locations for future use. Also, tried to work on google streets to allow a close view of the store, but I failed to pull the service and had to abandon the idea.
+
 #References Used
 Used this tutorial
 https://thinkster.io/tutorials/mean-stack
