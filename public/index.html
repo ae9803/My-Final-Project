@@ -1,9 +1,9 @@
 <!doctype html>
-<!-- Declares meanMapApp as the starting Angular module -->
-<html class="no-js" ng-app="meanMapApp">
+<!-- Declares valeroApp as the starting Angular module -->
+<html class="no-js" ng-app="valeroApp">
 <head>
     <meta charset="utf-8">
-    <title>Valero Gas Locator</title>
+    <title>Valero Gas Station Locator</title>
     <meta name="description" content="An App for Users To Find Stores">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -37,6 +37,9 @@
 <![endif]-->
 
 <div class="container">
+    
+            <div class="fullscreen-bg" style="background-image:url('http://www.9hdw.com/uploads/images/original/2013-06/3600_highway-road-high-resolution.jpg');" data-img-width="1800" data-img-height="900">
+</div>
     <!-- Header Menu. Note use of headerCtrl -->
     <div class="header" ng-controller="headerCtrl">
 
@@ -47,7 +50,7 @@
         </ul>
 
         <!-- Header Title -->
-        <h3 class="text-muted">Valero Gas Locator</h3>
+        <h3 class="text-muted"><b>Valero Gas Station Locator</b></h3>
     </div>
 
     <!-- Map and Side Panel -->
@@ -62,8 +65,12 @@
         <div ng-view></div>
 
     </div>
-    <hr/>
-
+</br>
+</br>
+</br>
+</br>
+</br>
+<hr/>
     <!-- Footer -->
     <div class="footer">
         <p class="text-center"><span class="glyphicon glyphicon-check"></span> Modified By Jake Hudson - All Rights Reserved

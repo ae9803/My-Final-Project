@@ -1,12 +1,12 @@
-// Declares the initial angular module "meanMapApp". Module grabs other controllers and services.
-var app = angular.module('meanMapApp', ['addCtrl', 'queryCtrl', 'headerCtrl', 'geolocation', 'gservice', 'ngRoute'])
+// Declares the initial angular module "valeroApp". Module grabs other controllers and services.
+var app = angular.module('valeroApp', ['queryCtrl', 'headerCtrl', 'geolocation', 'gservice', 'ngRoute'])
 
     // Configures Angular routing -- showing the relevant view and controller when needed.
     .config(function($routeProvider){
 
         // Find Valero Stores Control Panel
         $routeProvider.when('/find', {
-            controller: 'addCtrl',
+            controller: 'queryCtrl',
             templateUrl: 'partials/addForm.html',
 
 
